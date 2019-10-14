@@ -1,3 +1,1 @@
-module.exports = function solveSudoku(matrix) {
-  // your solution
-}
+module.exports = solveSudoku = sudoku => sudoku.map(row => row.map(elem => elem == 0 ? (i => i) : elem));
